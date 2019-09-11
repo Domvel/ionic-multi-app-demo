@@ -1,0 +1,19 @@
+<ion-app>
+  <ion-menu side="start" contentId="menu-content" type="push" [swipeGesture]="false">
+    <ion-header>
+      <ion-toolbar translucent>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list class="ion-no-padding">
+        <ion-item [routerLink]="['/about']" (click)="closeMenu()">
+          <ion-icon name="information-circle" slot="start"></ion-icon>
+          <ion-label>About</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="menu-content"></ion-router-outlet>
+</ion-app>

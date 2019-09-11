@@ -1,0 +1,25 @@
+{
+  "name": "my-apps",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "projects": {
+    "app1": {
+      "name": "App 1",
+      "integrations": {
+        "cordova": {}
+      },
+      "type": "angular",
+      "root": "src/apps/app1"
+    },
+    "app2": {
+      "name": "App 2",
+      "integrations": {
+        "cordova": {}
+      },
+      "type": "angular",
+      "root": "src/apps/app2"
+    }
+  }
+}
